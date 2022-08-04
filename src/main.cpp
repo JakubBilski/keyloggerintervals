@@ -122,6 +122,8 @@ int main(int argc, char *argv[]){
 				out += "[TAB]";
 			else if(c == 27)
 				out += "[ESC]";
+			else if(c == 32)
+				out += "[SPACE]";
 			else if(c == 33)
 				out += "[PAGE UP]";
 			else if(c == 34)
